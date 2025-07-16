@@ -1,0 +1,56 @@
+/* Fundo geral */
+html {
+    background-color: #0a0a23;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização da página principal */
+.pagina-inicial {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Menu lateral */
+.menu-lateral {
+    width: 220px;
+    background-color: #111827;
+    padding: 20px;
+}
+
+/* Navegação dentro do menu */
+.menu-lateral__navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-lateral__navegacao a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.menu-lateral__navegacao a:hover {
+    background-color: #1f2937;
+}
+
+/* Ícones */
+.menu-lateral__navegacao img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Conteúdo principal ao lado do menu */
+.principal {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #1e1e2f;
+}

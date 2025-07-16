@@ -1,11 +1,24 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu Lateral</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
-    <h1>logiN</h1>
+    <div class="pagina-inicial">
+        <main class="principal">
+            <section class="menu-lateral">
+                <nav class="menu-lateral__navegacao">
+                    <a href="#">Home</a>
+                    <a href="#">Login</a>
+                    <a href="#">Cadastro</a>
+                    <a href="#">Logout</a>
+                </nav>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
