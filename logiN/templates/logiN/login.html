@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form action="" method="post">
-    <input type="text" name="usuario" placeholder="Usuário">
-    <input type="password" name="senha" placeholder="Senha">
-    <button type="submit">Entrar</button>
+{% block content %}
+<form action="" method="post" class="w-50">
+    {% csrf_token %}
+    {% for field in form.visible_fields %}
+        <div class="mb-3">
+            <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+            {{ field }}
+            {% if field.errors %}
+                <div class="text-danger">
+                    {{ field.errors }}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Entrar</button>
 </form>
-</body>
-</html>
+{% endblock %}
