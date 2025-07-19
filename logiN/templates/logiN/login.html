@@ -1,5 +1,6 @@
+{% extends "logiN/base.html" %}
 {% block content %}
-<form action="" method="post" class="w-50">
+<form action="" method="post" class="teste">
     {% csrf_token %}
     {% for field in form.visible_fields %}
         <div class="mb-3">
