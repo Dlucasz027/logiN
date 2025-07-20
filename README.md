@@ -7,7 +7,7 @@
 Este projeto foi desenvolvido com o objetivo de consolidar meus conhecimentos em Django, especialmente no que diz respeito ao sistema de autenticação de usuários. Toda a estrutura foi criada do zero, utilizando apenas minhas anotações e aprendizados dos estudos pessoais e cursos.
 O foco principal foi trabalhar a lógica por trás de um sistema completo de cadastro, login e logout, explorando o padrão MTV do Django, validações, mensagens de feedback e muito mais — tudo isso priorizando o backend e deixando o frontend mais simples para concentrar nos fundamentos.
 
-##🇺🇸 Welcome to the Django Authentication System!
+## 🇺🇸 Welcome to the Django Authentication System!
 
 This project was developed to solidify my understanding of Django, especially around building a user authentication system. The entire structure was built from scratch using only my personal notes and study materials.
 The main goal was to develop a full logic for signup, login, and logout features, exploring Django’s MTV architecture, validations, user feedback messages, and more — with a strong focus on backend fundamentals over visual design.
