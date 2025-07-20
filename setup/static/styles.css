@@ -7,13 +7,6 @@ html, body {
     color: #ffffff;
 }
 
-.container-centralizado {
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center;     /* vertical */
-    height: 100vh;           /* altura total da viewport */
-    gap: 40px;               /* espaço entre menu e login */
-}
 
 .menu-lateral {
     background-color: #111827;
@@ -81,7 +74,7 @@ html, body {
     background-color: #2563eb;
 }
 
-.teste {
+.login {
     background-color: #1e1e2f;
     padding: 30px;
     border-radius: 8px;
@@ -89,17 +82,13 @@ html, body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.teste h1 {
-    margin-bottom: 20px;
-}
-
-.teste label {
+.login label {
     display: block;
     margin-bottom: 8px;
 }
 
-.teste input[type="text"],
-.teste input[type="password"] {
+.login input[type="text"],
+.login input[type="password"] {
     width: 100%;
     padding: 8px 10px;
     margin-bottom: 15px;
@@ -108,7 +97,7 @@ html, body {
     outline: none;
 }
 
-.teste button {
+.login button {
     width: 100%;
     padding: 10px;
     background-color: #3b82f6;
@@ -119,6 +108,54 @@ html, body {
     cursor: pointer;
 }
 
-.teste button:hover {
+.login button:hover {
+    background-color: #2563eb;
+}
+
+/*styles de cadastro*/
+.cadastro {
+    background-color: #1e1e2f;
+    padding: 30px;
+    border-radius: 8px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cadastro h1,
+.cadastro h2 {
+    margin-bottom: 20px;
+}
+
+.cadastro label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.cadastro input[type="text"],
+.cadastro input[type="password"],
+.cadastro input,
+.cadastro select,
+.cadastro textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cadastro button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cadastro button:hover {
     background-color: #2563eb;
 }

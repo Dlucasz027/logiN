@@ -13,9 +13,10 @@
         <main class="principal d-flex">
             <section class="menu-lateral p-3 bg-light" style="min-width: 200px;">
                 <nav class="menu-lateral__navegacao d-flex flex-column gap-2">
+                    <a href="{% url 'exclusiva' %}">Home</a>
                     <a href="{% url 'login' %}">Login</a>
                     <a href="{% url 'cadastro' %}">Cadastro</a>
-                    <a href="#">Logout</a>
+                    <a href="{% url 'logout' %}">Logout</a>
                 </nav>
             </section>
 

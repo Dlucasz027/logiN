@@ -7,7 +7,7 @@
     <h2>Cadastro</h2>
 
     {# Formulário de cadastro - envia dados via método POST para a URL com nome "cadastro" #}
-    <form action="{% url 'cadastro' %}" method="POST" class="w-50">
+    <form action="{% url 'cadastro' %}" method="POST" class="w-50 cadastro">
         
         {# Token de segurança do Django contra CSRF (Cross-Site Request Forgery) #}
         {% csrf_token %}
