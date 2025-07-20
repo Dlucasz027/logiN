@@ -1,79 +1,89 @@
+/* Aplica para as tags html e body do documento */
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #0a0a23;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
+    margin: 0;               /* Remove margem padrão do navegador */
+    padding: 0;              /* Remove espaçamento interno padrão */
+    height: 100%;            /* Garante que o corpo ocupe toda a altura da janela */
+    background-color: #0a0a23; /* Cor de fundo escura azulada */
+    font-family: Arial, sans-serif; /* Fonte principal do texto */
+    color: #ffffff;          /* Cor do texto branca */
 }
 
-
+/* Estilização do menu lateral */
 .menu-lateral {
-    background-color: #111827;
-    padding: 30px;
-    border-radius: 8px;
-    width: 280px;  /* maior largura */
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    background-color: #111827; /* Fundo escuro (cinza quase preto) */
+    padding: 30px;             /* Espaço interno nas laterais e topo/baixo */
+    border-radius: 8px;        /* Bordas arredondadas */
+    width: 280px;              /* Largura fixa para o menu lateral */
+    display: flex;             /* Usa flexbox para layout interno */
+    flex-direction: column;    /* Organiza os filhos em coluna (vertical) */
+    gap: 15px;                 /* Espaço entre os itens do menu */
+    align-self: flex-start; /* Garante altura apenas do conteúdo */
 }
 
+/* Estilo dos links dentro do menu lateral */
 .menu-lateral a {
-    color: #fff;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    background-color: #1f2937;
-    transition: background-color 0.2s ease;
+    color: #fff;               /* Cor do texto branca */
+    text-decoration: none;     /* Remove o sublinhado padrão */
+    padding: 12px 20px;        /* Espaçamento interno para clicar melhor */
+    border-radius: 8px;        /* Bordas arredondadas para o botão/link */
+    background-color: #1f2937; /* Fundo cinza escuro */
+    transition: background-color 0.2s ease; /* Animação suave para mudança de cor */
 }
 
+/* Efeito ao passar o mouse sobre os links do menu lateral */
 .menu-lateral a:hover {
-    background-color: #374151;
+    background-color: #374151; /* Fundo cinza mais claro ao hover */
 }
 
-/* Estilo para o form de login */
+/* Estilo do formulário de login */
 .form-login {
-    background-color: #1e1e2f;
-    padding: 30px;
-    border-radius: 8px;
-    width: 320px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #1e1e2f; /* Fundo azul escuro */
+    padding: 30px;             /* Espaço interno ao redor */
+    border-radius: 8px;        /* Bordas arredondadas */
+    width: 320px;              /* Largura fixa do formulário */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra leve em volta */
 }
 
+/* Espaço abaixo do título h1 dentro do form-login */
 .form-login h1 {
     margin-bottom: 20px;
 }
 
+/* Cada label fica em bloco separado com espaço abaixo */
 .form-login label {
-    display: block;
-    margin-bottom: 8px;
+    display: block;            /* Faz o label ocupar linha inteira */
+    margin-bottom: 8px;        /* Espaço abaixo do label */
 }
 
+/* Estilização dos campos input tipo texto e senha */
 .form-login input[type="text"],
 .form-login input[type="password"] {
-    width: 100%;
-    padding: 8px 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
+    width: 100%;               /* Ocupa toda a largura do form */
+    padding: 8px 10px;         /* Espaço interno para digitar */
+    margin-bottom: 15px;       /* Espaço abaixo do campo */
+    border-radius: 5px;        /* Bordas arredondadas */
+    border: none;              /* Remove bordas padrão */
+    outline: none;             /* Remove contorno padrão quando focado */
 }
 
+/* Estilização do botão dentro do form-login */
 .form-login button {
-    width: 100%;
-    padding: 10px;
-    background-color: #3b82f6;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+    width: 100%;               /* Botão ocupa toda a largura */
+    padding: 10px;             /* Espaçamento interno */
+    background-color: #3b82f6; /* Cor azul vibrante */
+    border: none;              /* Sem borda */
+    border-radius: 5px;        /* Bordas arredondadas */
+    color: white;              /* Texto branco */
+    font-weight: bold;         /* Texto em negrito */
+    cursor: pointer;           /* Cursor muda para mãozinha */
 }
 
+/* Cor do botão muda ao passar o mouse */
 .form-login button:hover {
-    background-color: #2563eb;
+    background-color: #2563eb; /* Azul mais escuro no hover */
 }
 
+/* Estilo da classe login (parecida com form-login) */
 .login {
     background-color: #1e1e2f;
     padding: 30px;
@@ -82,11 +92,13 @@ html, body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+/* Label dentro de login */
 .login label {
     display: block;
     margin-bottom: 8px;
 }
 
+/* Inputs texto e senha dentro de login */
 .login input[type="text"],
 .login input[type="password"] {
     width: 100%;
@@ -97,6 +109,7 @@ html, body {
     outline: none;
 }
 
+/* Botão dentro de login */
 .login button {
     width: 100%;
     padding: 10px;
@@ -108,11 +121,12 @@ html, body {
     cursor: pointer;
 }
 
+/* Botão login hover */
 .login button:hover {
     background-color: #2563eb;
 }
 
-/*styles de cadastro*/
+/* Estilo para a área de cadastro */
 .cadastro {
     background-color: #1e1e2f;
     padding: 30px;
@@ -121,30 +135,34 @@ html, body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+/* Títulos h1 e h2 dentro do cadastro com espaço embaixo */
 .cadastro h1,
 .cadastro h2 {
     margin-bottom: 20px;
 }
 
+/* Label dentro do cadastro */
 .cadastro label {
     display: block;
     margin-bottom: 8px;
 }
 
+/* Inputs, selects e textarea dentro do cadastro */
 .cadastro input[type="text"],
 .cadastro input[type="password"],
 .cadastro input,
 .cadastro select,
 .cadastro textarea {
-    width: 100%;
-    padding: 8px 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
+    width: 100%;              /* Ocupa toda largura do container */
+    padding: 8px 10px;        /* Espaço interno */
+    margin-bottom: 15px;      /* Espaço abaixo de cada campo */
+    border-radius: 5px;       /* Bordas arredondadas */
+    border: none;             /* Remove borda padrão */
+    outline: none;            /* Remove contorno padrão ao focar */
+    box-sizing: border-box;   /* Inclui padding e border na largura total */
 }
 
+/* Botão dentro do cadastro */
 .cadastro button {
     width: 100%;
     padding: 10px;
@@ -156,6 +174,7 @@ html, body {
     cursor: pointer;
 }
 
+/* Botão cadastro hover */
 .cadastro button:hover {
     background-color: #2563eb;
 }
