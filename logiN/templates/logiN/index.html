@@ -10,7 +10,15 @@
 
 </head>
 <body>
-
+{% if messages %}
+    <div class="fixed-message-container">
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} text-center" role="alert">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
 {% block content %}
     <div class="login-container">
       <div class="logo">logiN <span>DEV</span></div>
