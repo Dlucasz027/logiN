@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
     <title>{% block title %}{% endblock %}</title>
 
 </head>
@@ -21,7 +22,7 @@
 {% endif %}
 {% block content %}
     <div class="login-container">
-      <div class="logo">logiN <span>DEV</span></div>
+      <div class="logo">logiN </div>
 
       <form id="loginForm" method="POST">
         {% csrf_token %}
@@ -39,6 +40,9 @@
       </form>
     </div>
 {% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<script src="{% static 'script.js' %}"></script>
 
 </body>
 </html>
