@@ -80,27 +80,39 @@ While developing this project, I was able to:
 📸 Preview do Projeto | Project Preview
 
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/e075c75a-e986-4cbf-8eca-beaee6344c56" alt="Tela de login Django" width="800"/> </p>
+<p align="center">
+  <img width="900" alt="Tela Inicial" src="https://github.com/user-attachments/assets/89f90283-fb23-4567-bede-482db26cd45f"/>
+</p>
 
 ---
 
-
-<p align="center"> <img src="https://github.com/user-attachments/assets/08654e40-94c4-4d73-92fd-bdc8f3d7ad61" alt="Cadastro de usuário" width="800"/> </p>
-
----
-
-
-<p align="center"> <img src="https://github.com/user-attachments/assets/8eede78e-7e77-439d-a837-77f4f62289a1" alt="Mensagem de sucesso" width="800"/> </p>
+<p align="center">
+  <img width="900" alt="Cadastro de Usuário" src="https://github.com/user-attachments/assets/34ad38c4-387a-4e28-80e9-0df73bc80717"/>
+</p>
 
 ---
 
-
-<p align="center"> <img src="https://github.com/user-attachments/assets/b5a5b3ee-7d68-46c5-9ef4-a29afba25ea2" alt="Página protegida e logado" width="800"/> </p>
+<p align="center">
+  <img width="900" alt="Conteúdo da Área Exclusiva" src="https://github.com/user-attachments/assets/4837f507-ebb6-4981-8f9e-9c194bed8995"/>
+</p>
 
 ---
 
+<p align="center">
+  <img width="900" alt="Final da Página Exclusiva" src="https://github.com/user-attachments/assets/32689bc7-5703-419c-a215-a885121bfb04"/>
+</p>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/65503102-19de-4064-80ae-18f050c308b9" alt="Logout com sucesso" width="800"/> </p>
+---
+
+<p align="center">
+  <img width="900" alt="Botão de Logout" src="https://github.com/user-attachments/assets/4ef8a1cf-cd62-4c17-8683-794a045a6b16"/>
+</p>
+
+---
+
+<p align="center">
+  <img width="500" alt="Botão Registrar" src="https://github.com/user-attachments/assets/599fca9b-e29d-41d2-9ba1-6577d044150a"/>
+</p>
 
 
 ---
