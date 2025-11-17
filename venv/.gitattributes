@@ -6,3 +6,4 @@ static/tsparticles/** linguist-vendored
 dist/** linguist-vendored
 build/** linguist-vendored
 venv/** linguist-vendored
+static/admin/ linguist-vendored
