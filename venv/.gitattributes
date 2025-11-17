@@ -1,4 +1,8 @@
-/dist/** linguist-vendored
-/build/** linguist-vendored
+static/bootstrap/** linguist-vendored
+static/font-awesome/** linguist-vendored
+static/tsparticles/** linguist-vendored
 *.min.css linguist-vendored
 *.min.js linguist-vendored
+dist/** linguist-vendored
+build/** linguist-vendored
+venv/** linguist-vendored
