@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  background: linear-gradient(to top, #183D5B 0%, #040D1F 100%);
+}
+
+.login-container {
+  background: #23272d;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  color: #e0e0e0;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 700;
+  color: #00FFFF;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.input-box {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e0e0e0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  background: #333940;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.button {
+  background: #00FFFF;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #00E5E5;
+  transition: background 0.8s ease-in-out;
+  box-shadow:0 0 15px #00FFFF;
+}
+
+.small-link {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #61afef;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fixed-message-container {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+}

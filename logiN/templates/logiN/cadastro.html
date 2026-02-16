@@ -1,0 +1,57 @@
+{% extends "logiN/index.html" %}
+
+{% block title %}Cadastro{% endblock %}
+
+{% block content %}
+    <div class="login-container">
+      <div class="logo">logiN </div>
+
+      <form id="registerForm" method="POST">
+        {% csrf_token %}
+
+        {% if form.non_field_errors %}
+          <div class="error-messages">
+              {% for error in form.non_field_errors %}
+                  <p>{{ error }}</p>
+              {% endfor %}
+          </div>
+        {% endif %}
+
+        <div class="input-box">
+          {{ form.nome_cadastro.label_tag }}
+          {{ form.nome_cadastro }}
+          {% if form.nome_cadastro.errors %}
+            <small>{{ form.nome_cadastro.errors }}</small>
+          {% endif %}
+        </div>
+
+        <div class="input-box">
+          {{ form.email.label_tag }}
+          {{ form.email }}
+          {% if form.email.errors %}
+            <small>{{ form.email.errors }}</small>
+          {% endif %}
+        </div>
+
+        <div class="input-box">
+          {{ form.senha_1.label_tag }}
+          {{ form.senha_1 }}
+          {% if form.senha_1.errors %}
+            <small>{{ form.senha_1.errors }}</small>
+          {% endif %}
+        </div>
+
+        <div class="input-box">
+          {{ form.senha_2.label_tag }}
+          {{ form.senha_2 }}
+          {% if form.senha_2.errors %}
+            <small>{{ form.senha_2.errors }}</small>
+          {% endif %}
+        </div>
+
+        <button type="submit" class="button">Registrar</button>
+
+        <a href="{% url 'login' %}" class="small-link" id="showLogin">Voltar ao login</a>
+      </form>
+  </div>
+{% endblock %}
