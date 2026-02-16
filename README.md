@@ -101,34 +101,40 @@ Throughout development, I learned to:
 ---
 
 <p align="center">
-  <img width="900" alt="Cadastro de Usuário" src="https://github.com/user-attachments/assets/34ad38c4-387a-4e28-80e9-0df73bc80717"/>
+    <img width="900" src="https://github.com/user-attachments/assets/c0372e98-dc50-45ad-a7d7-c18b202f6100" />
 </p>
 
 ---
 
 <p align="center">
-  <img width="900" alt="Conteúdo da Área Exclusiva" src="https://github.com/user-attachments/assets/4837f507-ebb6-4981-8f9e-9c194bed8995"/>
+  <img width="900" src="https://github.com/user-attachments/assets/087a5c44-3196-4c1c-a10e-e3865edc11c8" />
 </p>
 
 ---
 
 <p align="center">
-  <img width="900" alt="Final da Página Exclusiva" src="https://github.com/user-attachments/assets/32689bc7-5703-419c-a215-a885121bfb04"/>
+  <img width="900" src="https://github.com/user-attachments/assets/02c498f2-89e2-4851-90a0-f9bac97e6563" />
 </p>
 
 ---
 
 <p align="center">
-  <img width="900" alt="Botão de Logout" src="https://github.com/user-attachments/assets/4ef8a1cf-cd62-4c17-8683-794a045a6b16"/>
+  <img width="900" src="https://github.com/user-attachments/assets/3ce35eea-89f2-4d0a-8753-92b2e5582a67" />
 </p>
 
 ---
 
 <p align="center">
-  <img width="500" alt="Botão Registrar" src="https://github.com/user-attachments/assets/599fca9b-e29d-41d2-9ba1-6577d044150a"/>
+  <img width="900" src="https://github.com/user-attachments/assets/0eeedc0a-1578-4c78-bf60-8bd40207ee35" />
 </p>
 
+---
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/270f822d-046d-4862-a69c-063fe2af5b7c" />
+</p>
 
 ---
+
 👤 Matheus de Lucas Arouca
 LinkedIn
