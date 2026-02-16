@@ -95,7 +95,7 @@ Throughout development, I learned to:
 
 
 <p align="center">
-  <img width="900" alt="Tela Inicial" src="https://github.com/user-attachments/assets/89f90283-fb23-4567-bede-482db26cd45f"/>
+  <img width="900" src="https://github.com/user-attachments/assets/e66eee2b-f0a3-4a45-8c3e-c97467a4dc31" />
 </p>
 
 ---
